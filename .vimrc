@@ -9,7 +9,9 @@ set showcmd
 set autoindent
 set cmdheight=2
 set cursorline
-
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
 set mouse=
 
 let g:winManagerWindowLayout = 'FileExplorer|TagList'
