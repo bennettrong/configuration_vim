@@ -13,7 +13,7 @@ set softtabstop=4
 set shiftwidth=4
 set noexpandtab
 set mouse=
-set smartcase
+set ignorecase smartcase
 
 let g:winManagerWindowLayout = 'FileExplorer|TagList'
 let g:winManagerWidth=35
