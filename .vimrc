@@ -26,7 +26,7 @@ match WhitespaceEOL /\s\+$/
 map wm :WMToggle<cr>
 map wf :FirstExplorerWindow<cr>
 map wb :BottomExplorerWindow<cr>
-
+let g:persistentBehaviour=0
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
