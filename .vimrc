@@ -1,3 +1,4 @@
+colo desert
 set nocompatible
 set number
 set incsearch
