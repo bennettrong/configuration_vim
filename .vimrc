@@ -12,7 +12,7 @@ set cmdheight=2
 set cursorline
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 set mouse=
 set ignorecase smartcase
 
@@ -27,6 +27,7 @@ match WhitespaceEOL /\s\+$/
 map wm :WMToggle<cr>
 map wf :FirstExplorerWindow<cr>
 map wb :BottomExplorerWindow<cr>
+map <silent> <F9> :%s/\s\+$//g<cr>
 let g:persistentBehaviour=0
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
